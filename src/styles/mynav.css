@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('../Assets/fonts/MyFont.ttf') format('truetype');
+}
+.mynav {
+    background-color: rgb(6, 80, 122);
+  /* background-color: #004aad ; */
+    /* background-color:rgb(12, 43, 142) !important; */
+  font-family:'MyFont';
+  font-size: 20px;
+ 
+ 
+}

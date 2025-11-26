@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('../Assets/fonts/MyFont.ttf') format('truetype');
+}
+
+
+.contact-page {
+  /* background-color: #052550; */
+    background: linear-gradient(135deg,white, rgb(6, 80, 122));
+
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.contact-card {
+  width: 100%;
+  max-width: 480px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  text-align: center;
+  color: #45607b;
+  font-weight: 700;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+.myform{
+    font-family:'Myfont' ;
+    color: rgba(0, 0, 0, 0.668);
+    font-weight: 1000;
+}
+.myform2{
+       font-family:'Myfont' ;
+}

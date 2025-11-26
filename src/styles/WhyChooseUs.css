@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('../Assets/fonts/MyFont.ttf') format('truetype');
+}
+
+
+.choose-section {
+  background: #dce3f1;
+  border-radius: 15px;
+}
+
+.choose-title-top {
+ font-family: 'MyFont';
+  font-size: 40px;
+  font-weight: 600;
+  color: #272626;
+  padding: 20px;
+  
+ 
+}
+
+/* VIDEO */
+.video-responsive {
+  width: 100%;
+  height: 350px;
+  border-radius: 22px;
+  object-fit: cover;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.20);
+}
+
+/* RIGHT SIDE CENTER BOTH WAYS */
+.choose-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* center vertically */
+  align-items: flex-start;   /* keep text left aligned */
+  height: 100%;
+  padding: 40px 20px;        /* spaces from top & bottom */
+}
+
+/* ICON + TEXT */
+.choose-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 50px;        /* space between items */
+}
+
+.choose-icon {
+  font-size: 28px;
+  color: #06429c;
+}
+
+.choose-text {
+    font-family: 'MyFont';
+  font-size: 18px;
+  margin: 0;
+  color: #222;
+  line-height: 1.5;
+  max-width: 400px;
+}
+body {
+  background: #dce3f1; /* or whatever color you want for the full page */
+}

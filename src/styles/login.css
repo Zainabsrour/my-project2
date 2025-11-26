@@ -1,0 +1,92 @@
+/* Page background and centering */
+
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('../Assets/fonts/MyFont.ttf') format('truetype');
+}.login-page {
+    font-family: "MYFont";
+  min-height: calc(100vh - 56px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #ffffff 0%, #06507a 100%);
+  width: 100%;
+  padding: 0;   
+}
+
+/* Card styling */
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  padding: 28px;
+  border: none;
+  border-radius: 16px;
+  background: #ffffff;
+}
+
+/* Headline */
+.login-card h3 {
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  color: #0b2a3a;
+}
+
+/* Form labels and inputs */
+.login-card .form-label {
+  font-weight: 500;
+  color: #0b2a3a;
+}
+
+.login-card .form-control {
+  height: 44px;
+  border-radius: 10px;
+  border: 1px solid #dbe4ea;
+}
+
+.login-card .form-control:focus {
+  border-color: #1f7db3;
+  box-shadow: 0 0 0 0.2rem rgba(31, 125, 179, 0.15);
+}
+
+/* Login button */
+.login-btn {
+  height: 44px;
+  border-radius: 10px;
+  background: #1f7db3;
+  border: none;
+}
+
+.login-btn:hover {
+  background: #196a95;
+}
+
+/* Footer text and link */
+.muted-text {
+  color: #5c6b75;
+}
+
+.signup-link {
+  color: #1f7db3;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
+
+/* Optional: navbar look to match the screenshot */
+.mynav {
+  background: rgba(6, 80, 122, 0.9);
+  backdrop-filter: saturate(120%) blur(6px);
+}
+
+.mynav .navbar-brand,
+.mynav .nav-link {
+  color: #ffffff !important;
+}
+
+.mynav .nav-link:hover {
+  color: #cfe9f6 !important;
+}

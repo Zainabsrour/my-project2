@@ -1,0 +1,41 @@
+/* 
+footer h5,
+footer h6 {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+footer p,
+footer small {
+  color: #fffdfd;
+  font-size: 14px;
+}
+
+footer a {
+  color: #ffffff;
+  transition: color 0.2s ease;
+}
+
+footer a:hover {
+  color: #19191b;
+}
+
+footer .nav-link {
+  padding: 0;
+  margin-bottom: 6px;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+footer .nav-link:hover {
+  color: #060606;
+/* } */
+@font-face {
+  font-family: 'MyFont';
+  src: url('../Assets/fonts/MyFont.ttf') format('truetype');
+}
+.my-footer{
+    font-family:'MyFont';
+    color: #fffdfd;
+   background-color: rgb(6, 80, 122);
+} 

@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('../Assets/fonts/MyFont.ttf') format('truetype');
+}
+/* Page background */
+.signup-page {
+    font-family: 'MyFont';
+  min-height: calc(100vh - 56px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #ffffff 0%, #06507a 100%);
+  width: 100%;
+  padding: 0;
+}
+
+/* Card styling */
+.signup-card {
+  width: 100%;
+  max-width: 420px;
+  padding: 28px;
+  border: none;
+  border-radius: 16px;
+  background: #ffffff;
+}
+
+/* Headline */
+.signup-card h3 {
+  font-weight: 600;
+  color: #0b2a3a;
+}
+
+/* Form inputs */
+.signup-card .form-control {
+  height: 44px;
+  border-radius: 10px;
+  border: 1px solid #dbe4ea;
+}
+
+.signup-card .form-control:focus {
+
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.15);
+}
+
+/* Sign Up button */
+.signup-btn {
+  height: 44px;
+  border-radius: 10px;
+  background: rgb(33, 116, 212);
+  border: none;
+}
+
+.signup-btn:hover {
+  background:  rgb(23, 95, 176);
+}
+
+/* Footer text */
+.muted-text {
+  color: #5c6b75;
+}
+
+.login-link {
+
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+.signup-btn:focus,
+.signup-btn:active {
+  background: rgb(23, 95, 176)!important; 
+  box-shadow: none !important;   
+}
